@@ -2,7 +2,7 @@ const db = require("../models");
 const path = require("path");
 const router = require("express").Router()
 
-// HTML Routes
+// HTML Routes DONE
 router.get('/exercise', function (req, res) {
     res.sendFile(path.join(__dirname, "../public/exercise.html"));
   });
@@ -23,19 +23,23 @@ router.get('/api/workouts', function (req, res) {
 
 // addExercise
 // put
-router.get('/api/workouts/:id', function (req, res) {
+router.put('/api/workouts/:id', function (req, res) {
 
 });
 
 
 // createWorkout
-router.get('/api/workouts', function (req, res) {
-
+// post
+router.post('/api/workouts', function (req, res) {
+  
 });
 
 // getWorkoutsInRange
 router.get('/api/workouts/range', function (req, res) {
-
+//     async function getCourses() {
+//         const courses = await Course
+// .find({       
+//     res.json()
 });
 
 
