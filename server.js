@@ -14,7 +14,7 @@ app.use(express.static("public"));
 app.use(router)
 
 
-mongoose.connect('mongodb://localhost/workout', {
+mongoose.connect('mongodb://root:rootroot1@ds227352.mlab.com:27352/heroku_p93hvzbh', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
